@@ -1,8 +1,3 @@
-/*
- * File: 102-magic.c
- * Auth: More AK
- */
-
 #include <stdio.h>
 
 int main(void)
@@ -15,10 +10,10 @@ int main(void)
   p = &n;
   /*
    * write your line of code here...
-   * Dont forget:
+   * Remember:
    * - you are not allowed to use a
-   * - you are not allowed to change p
-   * - use only one statement
+   * - you are not allowed to modify p
+   * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
   *(p + 5) = 98;
