@@ -1,6 +1,6 @@
 /*
  * File: 103-infinite_add.c
- * Auth: Lynn Ekalaji
+ * Auth: More AK
  */
 
 #include "main.h"
