@@ -1,27 +1,24 @@
-#include <ctype.h>
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - multiplies two numbers
- *
- * @argc: argument counter
- * @argv: argument vector
- *
- * Return: 0 if it works, 1 if there is an ERROR
+ * main - this is a function to print its name
+ * @argc: argc parameter
+ * @argv: an array of a command listed
+ * Return: 0 for success
  */
-
 int main(int argc, char *argv[])
 {
-int n, m, diff;
+int result, num1, num2;
 if (argc != 3)
 {
-printf("Error\n");
+printf("%s\n", "Error");
 return (1);
 }
-n = atoi(argv[1]);
-m = atoi(argv[2]);
-diff = n * m;
-printf("%i\n", diff);
+num1 = atoi(argv[1]);
+num2 = atoi(argv[2]);
+result = num1 * num2;
+printf("%d\n", result);
 return (0);
 }
