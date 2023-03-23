@@ -1,6 +1,10 @@
 #ifndef _VARIADIC_FUNCTIONS_H_
 #define _VARIADIC_FUNCTIONS_H_
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+
 /**
  * struct check - structure defining a format specifier
  * @c: type
