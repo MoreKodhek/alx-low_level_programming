@@ -6,11 +6,11 @@
  * @c: type
  * @f: the function to send it to
  */
-/*typedef struct check
+typedef struct check
 {
 char *chk;
 void (*f)(va_list list);
-} check_t;*/
+} check_t;
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
