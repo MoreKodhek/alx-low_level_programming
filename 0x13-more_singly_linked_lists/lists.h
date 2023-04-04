@@ -5,20 +5,15 @@
 #include <stdlib.h>
 
 /* Definition of singly link list node */
+
 typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
 } listint_t;
 
-/* Definition of SLL of pointers */
-typedef struct listp_s
-{
-	void *p;
-	struct listp_s *next;
-} listp_t;
-
 /* Functions */
+
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
