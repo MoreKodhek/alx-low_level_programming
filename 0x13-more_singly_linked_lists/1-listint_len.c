@@ -7,7 +7,7 @@
  * Return: The number of nodes in the list
  */
 
-size_t print_listint(const listint_t *head)
+size_t listint_len(const listint_t *head)
 {
 	size_t count = 0;
 
@@ -17,5 +17,5 @@ size_t print_listint(const listint_t *head)
 		head = head->next;
 	}
 
-	return count;
+	return (count);
 }
