@@ -18,5 +18,5 @@ size_t print_listint(const listint_t *head)
 		count++;
 
 	}
-	return count;
+	return (count);
 }
