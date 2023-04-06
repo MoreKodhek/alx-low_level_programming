@@ -14,11 +14,15 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (0);
 
-	for (; *b; ++b)
+	while (*b)
 	{
-		if (*b != '0' && *b != '1')
+		if (*b == '1')
+			digi = (digi << 1) | 1;
+		else if (*b == '0')
+			digi <<= 1;
+		else
 			return (0);
-		digi = (digi << 1) | (*b - '0');
+		b++;
 	}
 
 	return (digi);
